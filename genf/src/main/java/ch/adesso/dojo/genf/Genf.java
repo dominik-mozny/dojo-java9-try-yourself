@@ -7,4 +7,7 @@ import ch.adesso.dojo.population.Population;
  * @author dominik.mozny
  */
 public class Genf implements Population, InFrenchPart {
+    public int getPopulation() {
+        return 194565;
+    }
 }

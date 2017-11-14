@@ -7,4 +7,7 @@ import ch.adesso.dojo.population.Population;
  * @author dominik.mozny
  */
 public class Zurich implements Population, InGermanPart {
+    public int getPopulation() {
+        return 391359;
+    }
 }

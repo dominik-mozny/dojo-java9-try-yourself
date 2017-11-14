@@ -8,4 +8,7 @@ import ch.adesso.dojo.population.Population;
  * @author dominik.mozny
  */
 public class Bern implements Population, InGermanPart, WithParlament {
+    public int getPopulation() {
+        return 130015;
+    }
 }
