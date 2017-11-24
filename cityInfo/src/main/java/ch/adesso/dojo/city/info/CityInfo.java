@@ -17,7 +17,7 @@ public class CityInfo {
         printCitiesInGermanPart();
         printCitiesInFrenchPart();
         printCitiesPopulation();
-        someInternalJava8Code1();
+        weirdCode();
     }
 
     public static void printCitiesInGermanPart() {
@@ -44,9 +44,11 @@ public class CityInfo {
         System.out.println("Bern: " + bern.getPopulation());
         System.out.println("Zurich: " + zurich.getPopulation());
         System.out.println("Genf: " + genf.getPopulation());
+        System.out.println("-----------------");
     }
 
-    private static void someInternalJava8Code1() {
+    private static void weirdCode() {
+        System.out.println("Code not compatible with Java 9:");
         BASE64Encoder encoder = new BASE64Encoder();
         byte[] characters = {'h', 'e', 'l', 'l', 'o'};
         String encodedCharacters = encoder.encode(characters);
