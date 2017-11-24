@@ -6,6 +6,7 @@ import ch.adesso.dojo.genf.Genf;
 import ch.adesso.dojo.german.InGermanPart;
 import ch.adesso.dojo.population.Population;
 import ch.adesso.dojo.zurich.Zurich;
+import sun.misc.BASE64Encoder;
 
 /**
  * @author dominik.mozny
@@ -16,6 +17,7 @@ public class CityInfo {
         printCitiesInGermanPart();
         printCitiesInFrenchPart();
         printCitiesPopulation();
+        someInternalJava8Code1();
     }
 
     public static void printCitiesInGermanPart() {
@@ -42,5 +44,12 @@ public class CityInfo {
         System.out.println("Bern: " + bern.getPopulation());
         System.out.println("Zurich: " + zurich.getPopulation());
         System.out.println("Genf: " + genf.getPopulation());
+    }
+
+    private static void someInternalJava8Code1() {
+        BASE64Encoder encoder = new BASE64Encoder();
+        byte[] characters = {'h', 'e', 'l', 'l', 'o'};
+        String encodedCharacters = encoder.encode(characters);
+        System.out.println(encodedCharacters);
     }
 }
