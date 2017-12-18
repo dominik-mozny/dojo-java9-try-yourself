@@ -12,6 +12,7 @@
         <module>genf</module>
         <module>bern</module>
         <module>zurich</module>
+        <module>interfaceLocation</module>
         <module>interfaceBiggest</module>
         <module>interfaceInFrenchPart</module>
         <module>interfaceInGermanPart</module>
